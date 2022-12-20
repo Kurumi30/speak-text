@@ -30,3 +30,25 @@ button {
   top: 120%;
   box-shadow: 0 8px 8px rgba(0, 0, 255, 0.25), 0 5px 5px rgba(0, 0, 255, 0.22);
 }
+
+#icon {
+    color: red;
+    font-size: 20px;
+    position: initial;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*top: 800%;*/
+    top: calc(90% + 160px);
+    text-align: center;
+}
+
+#link {
+    color: rgb(42, 158, 14);
+    outline: none;
+    text-decoration: none;
+}
