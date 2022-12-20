@@ -10,6 +10,6 @@ button.addEventListener('click', () => {
     voice.speak(talk)
 
     if(text.value === "") {
-        
+        alert("Digite algo para falar!")
     }
 })
