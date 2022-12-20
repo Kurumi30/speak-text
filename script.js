@@ -5,11 +5,11 @@ button.addEventListener('click', () => {
     const voice = speechSynthesis
     const talk = new SpeechSynthesisUtterance(text.value)
     let language = "pt-BR" // Default language
-    
+
     talk.lang = language
     voice.speak(talk)
 
     if(text.value === "") {
-        alert("Insira um texto!")
+        
     }
 })

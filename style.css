@@ -14,6 +14,14 @@ body {
   background-color: aquamarine;
 }
 
+h2 {
+    font-family: "Catamaran", sans-serif;
+    text-align: center;
+    color: rgb(42, 158, 14);
+    position: relative;
+    top: 150%;
+}
+
 .textarea {
   display: flex;
   justify-content: center;
@@ -51,4 +59,10 @@ footer {
     color: rgb(42, 158, 14);
     outline: none;
     text-decoration: none;
+}
+
+#text {
+    height: 110px;
+    width: 60%;
+    font-family: 'Electrolize', sans-serif;
 }
