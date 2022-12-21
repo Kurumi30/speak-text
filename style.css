@@ -30,7 +30,7 @@ h2 {
   top: 100%;
 }
 
-button {
+button, #clear {
   margin: 10px;
   padding: 10px;
   transition: all 0.3s ease;
@@ -50,7 +50,6 @@ footer {
     justify-content: center;
     align-items: center;
     position: relative;
-    /*top: 800%;*/
     top: calc(90% + 160px);
     text-align: center;
 }
@@ -65,4 +64,41 @@ footer {
     height: 110px;
     width: 60%;
     font-family: 'Electrolize', sans-serif;
+}
+
+#clear {
+    left: 55%;
+    top: 110%;
+    width: 80px;
+    height: 45px;
+    background-color: red;
+    border: none;
+}
+
+@media screen and (max-width: 600px) {
+    #clear {
+        left: 50%;
+    }
+
+    button {
+        right: 50%;
+    }
+    footer {
+        position: relative;
+        top: calc(90% + 200px);
+    }
+}
+
+@media screen and (min-width: 400px) {
+    #clear {
+        left: 50%;
+    }
+
+    button {
+        right: 50%;
+    }
+    footer {
+        position: relative;
+        top: calc(90% + 250px);
+    }
 }
